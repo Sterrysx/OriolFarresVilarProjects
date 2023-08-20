@@ -6,5 +6,7 @@ This repository comprises a comprehensive compilation of projects that encompass
 
 ## Contact:
 **Mail:** oriol.farres@estudiantat.upc.edu
+
 **Telephone:** +34 683 37 96 43
+
 For faster communication, use my telephone.
