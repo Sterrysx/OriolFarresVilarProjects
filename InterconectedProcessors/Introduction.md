@@ -11,4 +11,4 @@ To access it:
   4. Open the 'index.html' file.
 
 ## Add-ons:
-For those interested in delving deeper, I have compiled an extensive document spanning over 50 pages that comprehensively elaborates on every facet of Orbital Executive's development. I extend an open invitation to schedule a meeting at your convenience, during which I would be delighted to provide an in-depth explanation, address any inquiries, and further explore the intricate details of this project.
+For those interested in delving deeper, I extend an open invitation to schedule a meeting at your convenience, during which I would be delighted to provide an in-depth explanation, address any inquiries, and further explore the intricate details of this project.
