@@ -1,5 +1,5 @@
 # Simulation of Interconnected Processors' Performance
-Simulation of the operation of a multiprocessor architecture, where each processor works exclusively with its own memory and can execute more than one process simultaneously.
+Simulation of the operations of a multiprocessor architecture, where each processor works exclusively with its own memory and can execute more than one process simultaneously.
 The main program will start by initializing a first cluster without processes. Next, it will initialize an empty waiting area, reading an initial number of priorities n > 0 and the identifiers of n priorities for this purpose. Once the initializations are completed, a series of commands will be processed, including the 'end' command which will terminate the execution.
 
 ## Guide:
