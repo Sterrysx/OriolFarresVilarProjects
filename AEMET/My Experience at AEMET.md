@@ -18,6 +18,3 @@ Crucially, I embarked on this enriching journey immediately after completing my 
 
 ## A Transformative Experience: Code, Collaboration, and Progress
 In reflection, my time at AEMET was indeed transformative. By acting as a conduit between coding intricacies and meteorological intricacies, I was able to contribute to a more cohesive and efficient workflow. This experience was a testament to the potential of interdisciplinary collaboration and showcased my commitment to continual learning and growth in specialized contexts.
-
-## Add-ons:
-For those interested in delving deeper, I have compiled an extensive document spanning over 50 pages that comprehensively elaborates on every facet of Orbital Executive's development. I extend an open invitation to schedule a meeting at your convenience, during which I would be delighted to provide an in-depth explanation, address any inquiries, and further explore the intricate details of this project.
