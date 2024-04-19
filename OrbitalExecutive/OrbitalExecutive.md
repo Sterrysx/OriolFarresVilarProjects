@@ -1,8 +1,5 @@
 # Orbital Executive: Merging Vision and Success
 
-## Introduction:
-As a dedicated Computer Science student, I harnessed my creative energy to conceive and develop this project during my tenure at Escola Cervetó. In the subsequent sections, I will provide a comprehensive overview of Orbital Executive, detailing its inception, growth strategies, and noteworthy achievements.
-
 ## Project Inception and Objective:
 Orbital Executive originated from my fervent desire to create impactful projects that serve a purpose. Collaborating with a fellow student, we identified a niche within the English market, which laid the groundwork for this endeavor. Recognizing the potential to bridge this gap for the Spanish-speaking community, we embarked on a journey to bring Orbital Executive to life.
 
