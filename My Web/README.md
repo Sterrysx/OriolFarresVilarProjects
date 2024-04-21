@@ -21,5 +21,5 @@ The portfolio website showcases my projects, skills, and experience as a compute
 
 ## Getting Started
 
-To view the website, simply visit [link to your hosted website](). Alternatively, you can clone this repository to your local machine and open the `index.html` file in a web browser.
+To view the website, simply clone this repository to your local machine and open the `index.html` file in a web browser.
 
