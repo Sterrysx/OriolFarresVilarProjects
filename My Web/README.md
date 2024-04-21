@@ -19,7 +19,7 @@ The portfolio website showcases my projects, skills, and experience as a compute
 In the documentation directory, you'll find a guide that covers the basics of HTML and CSS, as well as insights into web creation. This documentation serves as a reference for understanding the code and concepts used in building the website.
 
 ## Contributing
-This project is a learning exercise, but contributions and feedback are always welcome! If you have any suggestions for improvement or would like to report a bug, please open an issue or submit a pull request.
+This project is a learning exercise, but contributions and feedback are always welcome! If you have any suggestions for improvement or would like to report a bug, please open an issue or contact me!
 
 ## Getting Started
 To view the website, simply clone this repository to your local machine and open the `index.html` file in a web browser.
