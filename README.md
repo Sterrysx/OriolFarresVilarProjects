@@ -4,6 +4,9 @@ The primary objective of this repository is to offer a centralized platform for 
 ## Repository Contents:
 This repository comprises a comprehensive compilation of projects that encompass a wide range of domains, including both Computer Science and Economic disciplines. Each project is meticulously documented, detailing its scope, objectives, methodologies, technical implementations, and outcomes. The repository categorizes projects based on subjects and technical skills, offering a structured approach for navigation and exploration.
 
+## My web:
+https://sterrysx.github.io/Web/
+
 ## Contact:
 **Mail:** oriol.farres@estudiantat.upc.edu
 
