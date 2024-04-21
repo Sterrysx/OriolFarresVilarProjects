@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Prac: Referencia de la Clase Process_Area</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Prac
+   </div>
+   <div id="projectbrief">Proyecto de la asignatura Pro2, Simulación del rendimiento de procesadores interconectados</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="classProcess__Area-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la Clase Process_Area</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><b>El "área de procesos" se refiere a una zona o espacio específico donde se almacenan los procesos pendientes de ejecución. Es un área dedicada para contener los procesos que están en espera antes de ser ejecutados en el clúster multiprocesador. Los procesos en el área de procesos esperan su turno hasta que sean asignados a un procesador disponible para su ejecución.</b>  
+ <a href="classProcess__Area.html#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="Process__Area_8hh_source.html">Process_Area.hh</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcess__Area_1_1priority.html">priority</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>El struct "Prioridad" se refiere a un atributo asignado a los procesos pendientes que determina su orden de ejecución. Los procesos con mayor prioridad tienen la preferencia de ser ejecutados antes que los de menor prioridad, siguiendo un sistema de clasificación basado en el nombre de prioridad.</b>  <a href="structProcess__Area_1_1priority.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:af5dfe376d9e276e47f48109c395fb2e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#af5dfe376d9e276e47f48109c395fb2e2">Process_Area</a> ()</td></tr>
+<tr class="memdesc:af5dfe376d9e276e47f48109c395fb2e2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Inicializa una área de procesos con los valores default</b>  <a href="classProcess__Area.html#af5dfe376d9e276e47f48109c395fb2e2">Más...</a><br /></td></tr>
+<tr class="separator:af5dfe376d9e276e47f48109c395fb2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d055f0947b97e446f64fbb36b232dde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#a5d055f0947b97e446f64fbb36b232dde">existe_proceso</a> (const <a class="el" href="classProceso.html">Proceso</a> &amp;p, const string &amp;id_priority) const</td></tr>
+<tr class="memdesc:a5d055f0947b97e446f64fbb36b232dde"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Nos permite saber si existe algún proceso con el id de prioridad que buscamos</b>  <a href="classProcess__Area.html#a5d055f0947b97e446f64fbb36b232dde">Más...</a><br /></td></tr>
+<tr class="separator:a5d055f0947b97e446f64fbb36b232dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3628b7736cf2e35a149149c6ce54ce2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#ad3628b7736cf2e35a149149c6ce54ce2">read_process_area</a> ()</td></tr>
+<tr class="memdesc:ad3628b7736cf2e35a149149c6ce54ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Lee un área de espera</b>  <a href="classProcess__Area.html#ad3628b7736cf2e35a149149c6ce54ce2">Más...</a><br /></td></tr>
+<tr class="separator:ad3628b7736cf2e35a149149c6ce54ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d0d6187b660ba85873de169754d420"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#af3d0d6187b660ba85873de169754d420">imprimir_area_espera</a> ()</td></tr>
+<tr class="memdesc:af3d0d6187b660ba85873de169754d420"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Imprime los procesos pendientes del área de espera</b> Pre: <em>Existe</em>  <a href="classProcess__Area.html#af3d0d6187b660ba85873de169754d420">Más...</a><br /></td></tr>
+<tr class="separator:af3d0d6187b660ba85873de169754d420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10e37b63852ce47173c69c7af368226"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#ad10e37b63852ce47173c69c7af368226">imprimir_prioridad</a> (string &amp;id_priority)</td></tr>
+<tr class="memdesc:ad10e37b63852ce47173c69c7af368226"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Imprime los procesos pendientes de dicha prioridad</b>  <a href="classProcess__Area.html#ad10e37b63852ce47173c69c7af368226">Más...</a><br /></td></tr>
+<tr class="separator:ad10e37b63852ce47173c69c7af368226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46496202531c5096493507687d66d70d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#a46496202531c5096493507687d66d70d">imprimir_procesos_lista</a> (map&lt; string, <a class="el" href="structProcess__Area_1_1priority.html">priority</a> &gt;::iterator &amp;it, list&lt; <a class="el" href="classProceso.html">Proceso</a> &gt;::iterator &amp;itlista)</td></tr>
+<tr class="memdesc:a46496202531c5096493507687d66d70d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Imprime los procesos de la lista</b>  <a href="classProcess__Area.html#a46496202531c5096493507687d66d70d">Más...</a><br /></td></tr>
+<tr class="separator:a46496202531c5096493507687d66d70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aca62499c6438026361b21101625d2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#a7aca62499c6438026361b21101625d2f">alta_prioridad</a> (string &amp;id_priority)</td></tr>
+<tr class="memdesc:a7aca62499c6438026361b21101625d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Añade una prioridad al área de espera</b>  <a href="classProcess__Area.html#a7aca62499c6438026361b21101625d2f">Más...</a><br /></td></tr>
+<tr class="separator:a7aca62499c6438026361b21101625d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb281e550033d513249d202072c24eef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#afb281e550033d513249d202072c24eef">anadir_prioridad_a_area_espera</a> (string &amp;id_priority)</td></tr>
+<tr class="memdesc:afb281e550033d513249d202072c24eef"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Añade una prioridad al área de espera</b>  <a href="classProcess__Area.html#afb281e550033d513249d202072c24eef">Más...</a><br /></td></tr>
+<tr class="separator:afb281e550033d513249d202072c24eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7caa495b3c1ebc7b11dac7ab5a61505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#aa7caa495b3c1ebc7b11dac7ab5a61505">baja_prioridad</a> (string &amp;id_priority)</td></tr>
+<tr class="memdesc:aa7caa495b3c1ebc7b11dac7ab5a61505"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Elimina una prioridad al área de espera</b>  <a href="classProcess__Area.html#aa7caa495b3c1ebc7b11dac7ab5a61505">Más...</a><br /></td></tr>
+<tr class="separator:aa7caa495b3c1ebc7b11dac7ab5a61505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a6f0f9721365d84eff097fc85a5014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#aa2a6f0f9721365d84eff097fc85a5014">alta_proceso_espera</a> (const <a class="el" href="classProceso.html">Proceso</a> &amp;P, const string &amp;id_priority)</td></tr>
+<tr class="memdesc:aa2a6f0f9721365d84eff097fc85a5014"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Pasa un proceso al área de espera con la prioridad dada</b>  <a href="classProcess__Area.html#aa2a6f0f9721365d84eff097fc85a5014">Más...</a><br /></td></tr>
+<tr class="separator:aa2a6f0f9721365d84eff097fc85a5014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c204617dbd40e18a8ffec21ec134e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#a79c204617dbd40e18a8ffec21ec134e9">enviar_procesos_cluster</a> (int unsigned &amp;n, <a class="el" href="classCluster.html">Cluster</a> &amp;c)</td></tr>
+<tr class="memdesc:a79c204617dbd40e18a8ffec21ec134e9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Envia procesos al cluster ordenados por orden de prioridad</b>  <a href="classProcess__Area.html#a79c204617dbd40e18a8ffec21ec134e9">Más...</a><br /></td></tr>
+<tr class="separator:a79c204617dbd40e18a8ffec21ec134e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a01c21413e85d8e8a226bfa9c9b218071"><td class="memItemLeft" align="right" valign="top">map&lt; string, <a class="el" href="structProcess__Area_1_1priority.html">priority</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a></td></tr>
+<tr class="memdesc:a01c21413e85d8e8a226bfa9c9b218071"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Mapa con llave: string (que puede ser un int) id_priority y el valor: struct priority. Mapa donde puedo almacenar Prioridades por orden lexicográfico de identificador</b> <br  />
+  <a href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">Más...</a><br /></td></tr>
+<tr class="separator:a01c21413e85d8e8a226bfa9c9b218071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p ><b>El "área de procesos" se refiere a una zona o espacio específico donde se almacenan los procesos pendientes de ejecución. Es un área dedicada para contener los procesos que están en espera antes de ser ejecutados en el clúster multiprocesador. Los procesos en el área de procesos esperan su turno hasta que sean asignados a un procesador disponible para su ejecución.</b> </p>
+<dl class="section author"><dt>Autor</dt><dd>Oriol Farrés i Vilar </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd>Mayo del 2023 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="af5dfe376d9e276e47f48109c395fb2e2" name="af5dfe376d9e276e47f48109c395fb2e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5dfe376d9e276e47f48109c395fb2e2">&#9670;&nbsp;</a></span>Process_Area()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Process_Area::Process_Area </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Inicializa una área de procesos con los valores default</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Existe</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es una área de procesos incializada asignados al parámetro implícito </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">    5</span>{ </div>
+<div class="line"><span class="lineno">    6</span>    priority p;</div>
+<div class="line"><span class="lineno">    7</span>        p.npc = 0;</div>
+<div class="line"><span class="lineno">    8</span>        p.npr = 0;</div>
+<div class="line"><span class="lineno">    9</span>        p.l = list&lt;Proceso&gt;();</div>
+<div class="line"><span class="lineno">   10</span>        p.id_proceso = set&lt;int&gt;();</div>
+<div class="line"><span class="lineno">   11</span>    <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a> = map&lt;string, priority&gt;();</div>
+<div class="line"><span class="lineno">   12</span>}</div>
+<div class="ttc" id="aclassProcess__Area_html_a01c21413e85d8e8a226bfa9c9b218071"><div class="ttname"><a href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">Process_Area::mapa_string_priority</a></div><div class="ttdeci">map&lt; string, priority &gt; mapa_string_priority</div><div class="ttdoc">Mapa con llave: string (que puede ser un int) id_priority y el valor: struct priority....</div><div class="ttdef"><b>Definition:</b> Process_Area.hh:41</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="a7aca62499c6438026361b21101625d2f" name="a7aca62499c6438026361b21101625d2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aca62499c6438026361b21101625d2f">&#9670;&nbsp;</a></span>alta_prioridad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::alta_prioridad </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_priority</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Añade una prioridad al área de espera</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Dado un id de prioridad</em> </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id_priority</td><td>String, identificador de prioridad que tiene el propio proceso </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Si ya existe en el área de espera una prioridad con el mismo identificador, se imprime un mensaje de error. En caso contrario se añade esta prioridad al área de espera, sin procesos pendientes. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   79</span>{ </div>
+<div class="line"><span class="lineno">   80</span>    <span class="comment">//Si no hay error, añade la prioridad al área de espera</span></div>
+<div class="line"><span class="lineno">   81</span>    map&lt;string, priority&gt;::iterator it = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.find(id_priority);</div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.end()) <a class="code hl_function" href="classProcess__Area.html#afb281e550033d513249d202072c24eef">anadir_prioridad_a_area_espera</a>(id_priority); </div>
+<div class="line"><span class="lineno">   83</span>    <span class="keywordflow">else</span> cout &lt;&lt; <span class="stringliteral">&quot;error: ya existe prioridad&quot;</span> &lt;&lt; endl; <span class="comment">//ha encontrado en el área de espera una prioridad con el mismo id de prioridad</span></div>
+<div class="line"><span class="lineno">   84</span>}</div>
+<div class="ttc" id="aclassProcess__Area_html_afb281e550033d513249d202072c24eef"><div class="ttname"><a href="classProcess__Area.html#afb281e550033d513249d202072c24eef">Process_Area::anadir_prioridad_a_area_espera</a></div><div class="ttdeci">void anadir_prioridad_a_area_espera(string &amp;id_priority)</div><div class="ttdoc">Añade una prioridad al área de espera</div><div class="ttdef"><b>Definition:</b> Process_Area.cc:86</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa2a6f0f9721365d84eff097fc85a5014" name="aa2a6f0f9721365d84eff097fc85a5014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a6f0f9721365d84eff097fc85a5014">&#9670;&nbsp;</a></span>alta_proceso_espera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::alta_proceso_espera </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classProceso.html">Proceso</a> &amp;&#160;</td>
+          <td class="paramname"><em>P</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>id_priority</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Pasa un proceso al área de espera con la prioridad dada</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Dado un id de prioridad, un id del proceso</em> </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td><a class="el" href="classProceso.html" title="Un proceso en este contexto representa una tarea o conjunto de instrucciones con un identificador úni...">Proceso</a>, el propio proceso que queremos tratar en el parámetro implícito (Área de procesos) </td></tr>
+    <tr><td class="paramname">id_priority</td><td>String, identificador de prioridad que tiene el propio proceso </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Lee los datos de un proceso y un identificador de prioridad. Si no hay error: el proceso pasa a al área de espera con dicha prioridad </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  108</span>{ </div>
+<div class="line"><span class="lineno">  109</span>    map&lt;string, priority&gt;::iterator it = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.find(id_priority);</div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">if</span>(it == <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.end()) cout &lt;&lt;  <span class="stringliteral">&quot;error: no existe prioridad&quot;</span> &lt;&lt; endl; </div>
+<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="classProcess__Area.html#a5d055f0947b97e446f64fbb36b232dde">existe_proceso</a>(p, id_priority)) cout &lt;&lt; <span class="stringliteral">&quot;error: ya existe proceso&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  114</span>            it-&gt;second.l.insert(it-&gt;second.l.end(), p);</div>
+<div class="line"><span class="lineno">  115</span>            it-&gt;second.id_proceso.insert(p.consultar_id());</div>
+<div class="line"><span class="lineno">  116</span>        }</div>
+<div class="line"><span class="lineno">  117</span>    }</div>
+<div class="line"><span class="lineno">  118</span>}</div>
+<div class="ttc" id="aclassProcess__Area_html_a5d055f0947b97e446f64fbb36b232dde"><div class="ttname"><a href="classProcess__Area.html#a5d055f0947b97e446f64fbb36b232dde">Process_Area::existe_proceso</a></div><div class="ttdeci">bool existe_proceso(const Proceso &amp;p, const string &amp;id_priority) const</div><div class="ttdoc">Nos permite saber si existe algún proceso con el id de prioridad que buscamos</div><div class="ttdef"><b>Definition:</b> Process_Area.cc:16</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afb281e550033d513249d202072c24eef" name="afb281e550033d513249d202072c24eef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb281e550033d513249d202072c24eef">&#9670;&nbsp;</a></span>anadir_prioridad_a_area_espera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::anadir_prioridad_a_area_espera </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_priority</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Añade una prioridad al área de espera</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Dado un id de prioridad</em> </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id_priority</td><td>String, identificador de prioridad que tiene el propio proceso </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Añade una prioridad con 'id_priority' al área de espera, sin procesos pendientes y inicializando los valores del número de procesos aceptados y el número de procesos rechazados a 0 </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{ </div>
+<div class="line"><span class="lineno">   88</span>    priority p;</div>
+<div class="line"><span class="lineno">   89</span>    list&lt;Proceso&gt; lista;</div>
+<div class="line"><span class="lineno">   90</span>    p.l = lista;</div>
+<div class="line"><span class="lineno">   91</span>    p.npc = 0;</div>
+<div class="line"><span class="lineno">   92</span>    p.npr = 0;</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>[id_priority] = p;</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa7caa495b3c1ebc7b11dac7ab5a61505" name="aa7caa495b3c1ebc7b11dac7ab5a61505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7caa495b3c1ebc7b11dac7ab5a61505">&#9670;&nbsp;</a></span>baja_prioridad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::baja_prioridad </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_priority</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Elimina una prioridad al área de espera</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Dado un id de prioridad</em> </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id_priority</td><td>String, identificador de prioridad que tiene el propio proceso </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Si ya existe en el área de espera una prioridad con el mismo identificador, se imprime un mensaje de error. En caso contrario se elimina esta prioridad al área de espera, sin procesos pendientes. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{ </div>
+<div class="line"><span class="lineno">   98</span>    <span class="comment">//Si no hay error, elimina la prioridad del área de espera</span></div>
+<div class="line"><span class="lineno">   99</span>    map&lt;string, priority&gt;::iterator it = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.find(id_priority);</div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.end()) cout &lt;&lt; <span class="stringliteral">&quot;error: no existe prioridad&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  101</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">if</span> (it-&gt;second.l.empty())<a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.erase(it); <span class="comment">//elimina prioridad del area de espera</span></div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">else</span> cout &lt;&lt; <span class="stringliteral">&quot;error: prioridad con procesos&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="line"><span class="lineno">  105</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a79c204617dbd40e18a8ffec21ec134e9" name="a79c204617dbd40e18a8ffec21ec134e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c204617dbd40e18a8ffec21ec134e9">&#9670;&nbsp;</a></span>enviar_procesos_cluster()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::enviar_procesos_cluster </td>
+          <td>(</td>
+          <td class="paramtype">int unsigned &amp;&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCluster.html">Cluster</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Envia procesos al cluster ordenados por orden de prioridad</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Dado un número de procesos pendientes npc y un cluster c</em> </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Entero, número de procesos que queremos enviar al cluster </td></tr>
+    <tr><td class="paramname">c</td><td><a class="el" href="classCluster.html" title="Un cluster consiste en varios procesadores interconectados distribuidos en una estructura de árbol bi...">Cluster</a>, donde queremos enviar los procesos </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Lee un entero no negativo n y se intentan enviar al clúster n procesos pendientes. Los procesos se intentan colocar en el clúster por orden de prioridad. Dentro de una misma prioridad, se intentan colocar primero los procesos más antiguos. Los intentos continúan hasta haber colocado n procesos en el clúster o hasta que no queden procesos pendientes o hasta que todos los que queden pendientes se hayan intentado colocar sin éxito. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  121</span>{</div>
+<div class="line"><span class="lineno">  122</span>    map&lt;string, priority&gt;::iterator it = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.begin(), itend = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.end();</div>
+<div class="line"><span class="lineno">  123</span>    <span class="keywordflow">while</span> (it != itend and n &gt; 0) {</div>
+<div class="line"><span class="lineno">  124</span>        list&lt;Proceso&gt;::iterator itl = it-&gt;second.l.begin(), itlend = it-&gt;second.l.end();</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordtype">bool</span> rechazado = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  126</span>        <span class="keywordflow">while</span> (itl != itlend and n &gt; 0) {</div>
+<div class="line"><span class="lineno">  127</span>            <span class="comment">//si se puede enviar proceso cluster (++procesos aceptados)</span></div>
+<div class="line"><span class="lineno">  128</span>            <a class="code hl_class" href="classProceso.html">Proceso</a> p = *itl;</div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">if</span> (c.<a class="code hl_function" href="classCluster.html#a6f390ff9d7c49c7eb72ec23c33f551ee">puedo_enviar_proceso_cluster</a>(p)) {</div>
+<div class="line"><span class="lineno">  130</span>                ++it-&gt;second.npc;</div>
+<div class="line"><span class="lineno">  131</span>                it-&gt;second.<a class="code hl_variable" href="classProceso.html#a05023cae2b605079ec2277a37d8a914e">id_proceso</a>.erase(p.<a class="code hl_function" href="classProceso.html#a33b52579d6ee93986d33341bacc86521">consultar_id</a>()); <span class="comment">//eliminar el proceso del set de procesos</span></div>
+<div class="line"><span class="lineno">  132</span>                --n;</div>
+<div class="line"><span class="lineno">  133</span>            }</div>
+<div class="line"><span class="lineno">  134</span>            <span class="comment">//si no se puede enviar proceso cluster (++procesos rechazados)</span></div>
+<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  136</span>                ++it-&gt;second.npr;</div>
+<div class="line"><span class="lineno">  137</span>                it-&gt;second.l.push_back(p); <span class="comment">//pongo el proceso en el final de la lista</span></div>
+<div class="line"><span class="lineno">  138</span>                <span class="keywordflow">if</span>(not rechazado) {</div>
+<div class="line"><span class="lineno">  139</span>                    <span class="comment">//cuando entre el primer rechazado restaremos un al itlend para apuntar al primer rechazado de la prioridad</span></div>
+<div class="line"><span class="lineno">  140</span>                    --itlend;</div>
+<div class="line"><span class="lineno">  141</span>                    rechazado = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  142</span>                }</div>
+<div class="line"><span class="lineno">  143</span>            }</div>
+<div class="line"><span class="lineno">  144</span>            itl = it-&gt;second.l.erase(itl); <span class="comment">//eliminar el proceso de la lista de procesos y itl apunta al siguiente</span></div>
+<div class="line"><span class="lineno">  145</span>        }</div>
+<div class="line"><span class="lineno">  146</span>        ++it;</div>
+<div class="line"><span class="lineno">  147</span>    }</div>
+<div class="line"><span class="lineno">  148</span>}</div>
+<div class="ttc" id="aclassCluster_html_a6f390ff9d7c49c7eb72ec23c33f551ee"><div class="ttname"><a href="classCluster.html#a6f390ff9d7c49c7eb72ec23c33f551ee">Cluster::puedo_enviar_proceso_cluster</a></div><div class="ttdeci">bool puedo_enviar_proceso_cluster(Proceso &amp;p)</div><div class="ttdoc">Nos permite saber si puedo enviar o no el proceso al cluster</div><div class="ttdef"><b>Definition:</b> Cluster.cc:206</div></div>
+<div class="ttc" id="aclassProceso_html"><div class="ttname"><a href="classProceso.html">Proceso</a></div><div class="ttdoc">Un proceso en este contexto representa una tarea o conjunto de instrucciones con un identificador úni...</div><div class="ttdef"><b>Definition:</b> Proceso.hh:15</div></div>
+<div class="ttc" id="aclassProceso_html_a05023cae2b605079ec2277a37d8a914e"><div class="ttname"><a href="classProceso.html#a05023cae2b605079ec2277a37d8a914e">Proceso::id_proceso</a></div><div class="ttdeci">int id_proceso</div><div class="ttdoc">Entero que representa el identificador de cada proceso</div><div class="ttdef"><b>Definition:</b> Proceso.hh:19</div></div>
+<div class="ttc" id="aclassProceso_html_a33b52579d6ee93986d33341bacc86521"><div class="ttname"><a href="classProceso.html#a33b52579d6ee93986d33341bacc86521">Proceso::consultar_id</a></div><div class="ttdeci">int consultar_id() const</div><div class="ttdoc">Nos permite consultar un id</div><div class="ttdef"><b>Definition:</b> Proceso.cc:20</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5d055f0947b97e446f64fbb36b232dde" name="a5d055f0947b97e446f64fbb36b232dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d055f0947b97e446f64fbb36b232dde">&#9670;&nbsp;</a></span>existe_proceso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Process_Area::existe_proceso </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classProceso.html">Proceso</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>id_priority</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Nos permite saber si existe algún proceso con el id de prioridad que buscamos</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Existen el proceso y el id </em> </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td><a class="el" href="classProceso.html" title="Un proceso en este contexto representa una tarea o conjunto de instrucciones con un identificador úni...">Proceso</a>, el propio proceso que queremos tratar en el parámetro implícito (Área de procesos) </td></tr>
+    <tr><td class="paramname">id_priority</td><td>String, identificador de prioridad que tiene el propio proceso </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado indica si existe o no algún proceso "p" con el id de prioridad "id_priority" que buscamos </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>True si existe el proceso en el área de espera con id_priority que buscamos </dd>
+<dd>
+False si no existe el proceso en el área de espera con id_priority que buscamos </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   17</span>{ </div>
+<div class="line"><span class="lineno">   18</span>    map&lt;string, priority&gt;::const_iterator it = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.find(id_priority);</div>
+<div class="line"><span class="lineno">   19</span>    <span class="comment">//it apunta --&gt; proceso en el área de espera con id_priority que buscamos</span></div>
+<div class="line"><span class="lineno">   20</span>    set&lt;int&gt;::iterator itset = it-&gt;second.id_proceso.find(p.<a class="code hl_function" href="classProceso.html#a33b52579d6ee93986d33341bacc86521">consultar_id</a>()); </div>
+<div class="line"><span class="lineno">   21</span>    <span class="keywordflow">if</span> (itset == it-&gt;second.id_proceso.end()) <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">//itset apunta --&gt; end si no existe ningún id_proceso</span></div>
+<div class="line"><span class="lineno">   22</span>    <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">//itset apunta al id del proceso --&gt; ya existe un proceso con este id_proceso</span></div>
+<div class="line"><span class="lineno">   23</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af3d0d6187b660ba85873de169754d420" name="af3d0d6187b660ba85873de169754d420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d0d6187b660ba85873de169754d420">&#9670;&nbsp;</a></span>imprimir_area_espera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::imprimir_area_espera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Imprime los procesos pendientes del área de espera</b> Pre: <em>Existe</em> </p>
+<dl class="section post"><dt>Postcondición</dt><dd>Escribe los procesos pendientes de todas la prioridades del área de espera por orden creciente de prioridad. Para cada prioridad se escribe lo mismo que en la funcionalidad anterior </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{ </div>
+<div class="line"><span class="lineno">   47</span>    map&lt;string, priority&gt;::iterator it = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.begin(), itend = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.end();</div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">while</span> (it != itend) {</div>
+<div class="line"><span class="lineno">   49</span>        <span class="comment">//Imprimide el identificador de prioridad</span></div>
+<div class="line"><span class="lineno">   50</span>        cout &lt;&lt; it-&gt;first &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   51</span>        list&lt;Proceso&gt;::iterator itlista = it-&gt;second.l.begin(); </div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_function" href="classProcess__Area.html#a46496202531c5096493507687d66d70d">imprimir_procesos_lista</a>(it, itlista);</div>
+<div class="line"><span class="lineno">   53</span>        ++it;</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aclassProcess__Area_html_a46496202531c5096493507687d66d70d"><div class="ttname"><a href="classProcess__Area.html#a46496202531c5096493507687d66d70d">Process_Area::imprimir_procesos_lista</a></div><div class="ttdeci">void imprimir_procesos_lista(map&lt; string, priority &gt;::iterator &amp;it, list&lt; Proceso &gt;::iterator &amp;itlista)</div><div class="ttdoc">Imprime los procesos de la lista</div><div class="ttdef"><b>Definition:</b> Process_Area.cc:67</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad10e37b63852ce47173c69c7af368226" name="ad10e37b63852ce47173c69c7af368226"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10e37b63852ce47173c69c7af368226">&#9670;&nbsp;</a></span>imprimir_prioridad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::imprimir_prioridad </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_priority</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Imprime los procesos pendientes de dicha prioridad</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Dado un id de prioridad</em> <br  />
+ </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id_priority</td><td>String, identificador de prioridad que tiene el propio proceso </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Lee un identificador de prioridad. Si no hay error: se escriben los procesos pendientes de dicha prioridad por orden decreciente de antigüedad, desde su última alta. Además, escribe el número de procesos de la prioridad colocados en el clúster por la operación enviar_procesos_a_cluster y el número de procesos rechazos npr </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{ </div>
+<div class="line"><span class="lineno">   59</span>    map&lt;string, priority&gt;::iterator it = <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.find(id_priority);</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>.end()) cout &lt;&lt; <span class="stringliteral">&quot;error: no existe prioridad&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   62</span>        list&lt;Proceso&gt;::iterator itlista = it-&gt;second.l.begin();</div>
+<div class="line"><span class="lineno">   63</span>        <a class="code hl_function" href="classProcess__Area.html#a46496202531c5096493507687d66d70d">imprimir_procesos_lista</a>(it, itlista);</div>
+<div class="line"><span class="lineno">   64</span>    }</div>
+<div class="line"><span class="lineno">   65</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a46496202531c5096493507687d66d70d" name="a46496202531c5096493507687d66d70d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46496202531c5096493507687d66d70d">&#9670;&nbsp;</a></span>imprimir_procesos_lista()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::imprimir_procesos_lista </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; string, <a class="el" href="structProcess__Area_1_1priority.html">priority</a> &gt;::iterator &amp;&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">list&lt; <a class="el" href="classProceso.html">Proceso</a> &gt;::iterator &amp;&#160;</td>
+          <td class="paramname"><em>itlista</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Imprime los procesos de la lista</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Existe</em> </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">it</td><td>Iterador del mapa de string prioridad, apunta al id de prioridad que queremos tratar </td></tr>
+    <tr><td class="paramname">itlista</td><td>Iterador de la lista, imprimirá todos los procesos de la lista </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Escribe todos los procesos de la lista, finalizando el método escribiendo el número de procesos aceptados y el número de procesos rechazados </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
+<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">while</span> (itlista != it-&gt;second.l.end()) {</div>
+<div class="line"><span class="lineno">   70</span>        (*itlista).imprimir_proceso();</div>
+<div class="line"><span class="lineno">   71</span>        ++itlista;</div>
+<div class="line"><span class="lineno">   72</span>    }</div>
+<div class="line"><span class="lineno">   73</span>    cout &lt;&lt; it-&gt;second.npc &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; it-&gt;second.npr &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   74</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad3628b7736cf2e35a149149c6ce54ce2" name="ad3628b7736cf2e35a149149c6ce54ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3628b7736cf2e35a149149c6ce54ce2">&#9670;&nbsp;</a></span>read_process_area()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Process_Area::read_process_area </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><b>Lee un área de espera</b> </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Existe</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Lee un área de espera con su número de prioridades y prioridades respectivas, inicializando los valores del número de procesos aceptados y el número de procesos rechazados a 0 </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{ </div>
+<div class="line"><span class="lineno">   29</span>    <span class="keywordtype">string</span> id;</div>
+<div class="line"><span class="lineno">   30</span>    priority p;</div>
+<div class="line"><span class="lineno">   31</span>    list&lt;Proceso&gt; lista;</div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordtype">int</span> n; <span class="comment">//donde n es el número de prioridades</span></div>
+<div class="line"><span class="lineno">   33</span>    cin &gt;&gt; n;</div>
+<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><span class="lineno">   35</span>        cin &gt;&gt; id;</div>
+<div class="line"><span class="lineno">   36</span>        p.l = lista;</div>
+<div class="line"><span class="lineno">   37</span>        p.npc = 0;</div>
+<div class="line"><span class="lineno">   38</span>        p.npr = 0;</div>
+<div class="line"><span class="lineno">   39</span>        <a class="code hl_variable" href="classProcess__Area.html#a01c21413e85d8e8a226bfa9c9b218071">mapa_string_priority</a>[id] = p;</div>
+<div class="line"><span class="lineno">   40</span>    }</div>
+<div class="line"><span class="lineno">   41</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="a01c21413e85d8e8a226bfa9c9b218071" name="a01c21413e85d8e8a226bfa9c9b218071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c21413e85d8e8a226bfa9c9b218071">&#9670;&nbsp;</a></span>mapa_string_priority</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;string, <a class="el" href="structProcess__Area_1_1priority.html">priority</a>&gt; Process_Area::mapa_string_priority</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><b>Mapa con llave: string (que puede ser un int) id_priority y el valor: struct priority. Mapa donde puedo almacenar Prioridades por orden lexicográfico de identificador</b> <br  />
+ </p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir de los siguientes ficheros:<ul>
+<li><a class="el" href="Process__Area_8hh_source.html">Process_Area.hh</a></li>
+<li><a class="el" href="Process__Area_8cc.html">Process_Area.cc</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>
