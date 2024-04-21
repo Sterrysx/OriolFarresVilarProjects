@@ -22,5 +22,5 @@ In the documentation directory, you'll find a guide that covers the basics of HT
 This project is a learning exercise, but contributions and feedback are always welcome! If you have any suggestions for improvement or would like to report a bug, please open an issue or contact me!
 
 ## Getting Started
-To view the website, simply clone this repository to your local machine and open the `index.html` file in a web browser.
+To view the website, simply access this link  https://sterrysx.github.io/Web/
 
