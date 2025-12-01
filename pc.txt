@@ -1,0 +1,11 @@
+I am building a 48GB VRAM server to work with 70B parameter models (quantized to 4bit precision).
+This are my build specs:
+
+CPU: Ryzen 9 9900x
+GPU: 2uds. GigaByte RTX 3090
+RAM: 2x16GB DDR5 6000MHZ CL30
+PSU: 1200w Platinum
+Storage: 480GB SSD (we Will later build a NAS with RAIDs)
+Motherboard: ASUS ProArt X870E-CREATOR WiFi
+Chasiss:
+Cooling:
