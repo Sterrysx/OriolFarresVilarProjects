@@ -4,7 +4,7 @@ This are my build specs:
 CPU: Ryzen 9 9900x
 GPU: 2uds. GigaByte RTX 3090
 RAM: 2x16GB DDR5 6000MHZ CL30
-PSU: 1200w Platinum
+PSU: 1200w Platinum (Corsair HX1200)
 Storage: 480GB SSD (we Will later build a NAS with RAIDs)
 Motherboard: ASUS ProArt X870E-CREATOR WiFi
 Chasiss:
